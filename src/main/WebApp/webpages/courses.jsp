@@ -16,10 +16,10 @@
     <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-            <title>JSP Page</title>
+            <title>TripleC++ courses</title>
         </head>
         <body>
-            <h1><h:outputText value="Hello World!"/></h1>
+            <h1><h:outputText value="Top courses: 1)AI 2)Blockchain 3)IOT "/> Hello World</h1>
         </body>
     </html>
 </f:view>
