@@ -5,10 +5,18 @@
  */
 package com.samtj.CoursesWebApp;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 /**
  *
  * @author Omali
  */
+@Controller
 public class CoursesController {
     
+    @RequestMapping("/courses")
+    public String courses() {
+        return "courses.jsp";
+    }
 }
