@@ -6,8 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<%@taglib prefix="f" uri="http://java.sun.com/jsf/core"%>
-<%@taglib prefix="h" uri="http://java.sun.com/jsf/html"%>
+
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
     "http://www.w3.org/TR/html4/loose.dtd">
@@ -19,7 +18,7 @@
             <title>TripleC++ courses</title>
         </head>
         <body>
-            <h1><h:outputText value="Top courses: 1)AI 2)Blockchain 3)IOT "/> Hello World</h1>
+            <h1><h:outputText value="Hello World"/>Top courses: 1)AI 2)Blockchain 3)IOT // ${cname}</h1>
         </body>
     </html>
 </f:view>
