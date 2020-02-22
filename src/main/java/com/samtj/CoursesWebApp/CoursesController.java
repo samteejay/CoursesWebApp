@@ -14,6 +14,8 @@ import org.springframework.web.servlet.ModelAndView;
  *
  * @author Omali
  */
+ 
+// Write controller
 @Controller
 public class CoursesController {
     
